@@ -65,6 +65,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 #### 1. Provide an example of a distortion-corrected image.
 
 Here is sample test image and it distortion-corrected counterpart:
+
 | Road                 | Road Transformed     |
 |:--------------------:|:--------------------:|
 | ![alt text][image21] | ![alt text][image22] |
@@ -72,6 +73,7 @@ Here is sample test image and it distortion-corrected counterpart:
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
 I used following combination of color and gradient thresholds to generate a binary image.
+
 | Transformation                   | Parameters                 |
 |---------------------------------:|:---------------------------|
 | Grayscale Threshold              | thresh=(205, 255)          |
